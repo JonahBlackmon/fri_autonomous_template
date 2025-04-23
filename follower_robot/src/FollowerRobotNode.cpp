@@ -119,7 +119,7 @@ matrix
     Eigen::AngleAxisd rotation(angle, Eigen::Vector3d(0, 0, 1));
     Eigen::Matrix3d rotation_matrix = rotation.toRotationMatrix();
     transform.block(0, 0, 3, 3) = rotation_matrix;
-    transform.block<3, 1>(0,3) -= (follow_distance_ * transform.block<3, 1>(0, 0));
+    transform.block<3, 1>(0,3) += (follow_distance_ * transform.block<3, 1>(0, 0));
     return transform;
 }
 
@@ -206,6 +206,8 @@ void FollowerRobotNode::computeAndAct() {
         if(theTagMoved(map_to_base_link, base_link_to_tag1)) {
             RCLCPP_INFO_STREAM(this->get_logger(), "THE TAG MOVED" << endl);
             double distance = computeDistanceBaseLinkTag1(base_link_to_tag1);
+            RCLCPP_INFO_STREAM(this->get_logger(),
+                                "follow distance:  " << follow_distance_ << endl);
             if(distance > follow_distance_) {
                 Eigen::MatrixXd m_map_to_base_link =
                     transformToMatrix(map_to_base_link);
