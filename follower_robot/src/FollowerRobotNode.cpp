@@ -118,8 +118,8 @@ matrix
     double angle = atan2(base_link_to_tag1.transform.translation.y, base_link_to_tag1.transform.translation.x);
     Eigen::AngleAxisd rotation(angle, Eigen::Vector3d(0, 0, 1));
     Eigen::Matrix3d rotation_matrix = rotation.toRotationMatrix();
-    transform.block<3, 3>(0, 0) = rotation_matrix;
-    transform.col(3) = transform.col(3) - follow_distance_ * transform.block<3, 1>(0, 0);
+    transform.block(0, 0, 3, 3) = rotation_matrix;
+    transform.block<3, 1>(0,3) -= (follow_distance_ * transform.block<3, 1>(0, 0));
     return transform;
 }
 
