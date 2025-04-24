@@ -21,9 +21,9 @@ Eigen::MatrixXd transformToMatrix(const geometry_msgs::msg::TransformStamped &tr
     Eigen::Matrix3d rotation_mat = rotation.toRotationMatrix();
     // Sets the upper-left 3x3 submatrix to the rotation matrix
     matrix.block(0, 0, 3, 3) = rotation_mat;
-    Eigen::Vector4d translation(transform.transform.translation.x, transform.transform.translation.y,
-                                transform.transform.translation.z, 1.0);
-    matrix.col(3) = translation;
+    matrix(0, 3) = transform.transform.translation.x;
+    matrix(1, 3) = transform.transform.translation.y;
+    matrix(2, 3) = transform.transform.translation.z;
     return matrix;
 }
 
@@ -44,6 +44,7 @@ geometry_msgs::msg::TransformStamped matrixToTransform(
     geometry_msgs::msg::TransformStamped transform_msg;
     transform_msg.header.frame_id = parent_frame;
     transform_msg.child_frame_id = child_frame;
+    
     // Gets the translation col
     transform_msg.transform.translation.x = matrix(0, 3);
     transform_msg.transform.translation.y = matrix(1, 3);

@@ -1,0 +1,31 @@
+[0.012s] Invoking command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[0.075s] [ 25%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/MoveToTarget.cpp.o[0m
+[2.109s] [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:[m[K In member function ‘[01m[Kvoid MoveToTarget::result_callback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult&)[m[K’:
+[2.109s] [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:40:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.109s]    40 | [01;35m[Krclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult &result[m[K) {
+[2.109s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.109s] 
+[3.381s] [ 50%] [32m[1mLinking CXX executable follower_robot[0m
+[4.004s] [100%] Built target follower_robot
+[4.016s] Invoked command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot -- -j12 -l12
+[4.055s] Invoking command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot
+[4.062s] -- Install configuration: ""
+[4.062s] -- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/lib/follower_robot/follower_robot
+[4.066s] -- Set runtime path of "/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/lib/follower_robot/follower_robot" to ""
+[4.066s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/package_run_dependencies/follower_robot
+[4.066s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/parent_prefix_path/follower_robot
+[4.066s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/ament_prefix_path.sh
+[4.066s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/ament_prefix_path.dsv
+[4.066s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/path.sh
+[4.066s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/path.dsv
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.bash
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.sh
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.zsh
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.dsv
+[4.067s] -- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/package.dsv
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/packages/follower_robot
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/cmake/follower_robotConfig.cmake
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/cmake/follower_robotConfig-version.cmake
+[4.067s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/package.xml
+[4.068s] Invoked command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot

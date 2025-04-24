@@ -115,11 +115,16 @@ matrix
         That's a lot of help! Go write this thing!!
     */
     Eigen::MatrixXd transform = Eigen::MatrixXd::Identity(4, 4);
+    Eigen::Vector3d tag_position(base_link_to_tag1.transform.translation.x,
+                                 base_link_to_tag1.transform.translation.y, 0.0);
+    Eigen::Vector3d direction = tag_position.normalized();
     double angle = atan2(base_link_to_tag1.transform.translation.y, base_link_to_tag1.transform.translation.x);
     Eigen::AngleAxisd rotation(angle, Eigen::Vector3d(0, 0, 1));
     Eigen::Matrix3d rotation_matrix = rotation.toRotationMatrix();
     transform.block(0, 0, 3, 3) = rotation_matrix;
-    transform.block<3, 1>(0,3) += (follow_distance_ * transform.block<3, 1>(0, 0));
+    // transform.block<3, 1>(0,3) += (follow_distance_ * transform.block<3, 1>(0, 0));
+    Eigen::Vector3d go_to_position = tag_position - direction * follow_distance_;
+    transform.block<3, 1>(0,3) = go_to_position;
     return transform;
 }
 
@@ -219,8 +224,13 @@ void FollowerRobotNode::computeAndAct() {
                         the correct pose.
                 */
                 m_map_to_go_to_ = m_map_to_base_link * m_go_to;
-        
-                move_to_target_.copyToGoalPoseAndSend(m_go_to);
+                RCLCPP_INFO_STREAM(this->get_logger(),
+                        "m_map:  " << m_map_to_base_link << endl);
+                RCLCPP_INFO_STREAM(this->get_logger(),
+                        "m_go:  " << m_go_to << endl);
+                RCLCPP_INFO_STREAM(this->get_logger(),
+                        "m_map_go_to:  " << m_map_to_go_to_ << endl);
+                move_to_target_.copyToGoalPoseAndSend(m_map_to_go_to_);
             }
         }
         /*

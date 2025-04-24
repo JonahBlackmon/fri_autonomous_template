@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (follower_robot) JobQueued: {'identifier': 'follower_robot', 'dependencies': OrderedDict()}
+[0.000428] (follower_robot) JobStarted: {'identifier': 'follower_robot'}
+[0.009802] (follower_robot) JobProgress: {'identifier': 'follower_robot', 'progress': 'cmake'}
+[0.010147] (follower_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot', '-DCMAKE_INSTALL_PREFIX=/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot'], 'cwd': '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', '12_fri'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/12_fri/bwi_ros2/install/velodyne_pointcloud/lib:/home/12_fri/bwi_ros2/install/velodyne_driver/lib:/home/12_fri/bwi_ros2/install/velodyne_msgs/lib:/home/12_fri/bwi_ros2/install/velodyne_laserscan/lib:/home/12_fri/bwi_ros2/install/urg_node2/lib:/home/12_fri/bwi_ros2/install/spatial_utils/lib:/home/12_fri/bwi_ros2/install/segway_rmp_ros2/lib:/home/12_fri/bwi_ros2/install/segway_msgs/lib:/home/12_fri/bwi_ros2/install/libsegwayrmp/lib:/home/12_fri/bwi_ros2/install/apriltag_ros/lib:/home/12_fri/bwi_ros2/install/apriltag_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/12_fri'), ('OLDPWD', '/home/12_fri/bwi_ros2/src/fri_autonomous_template'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '334885'), ('SYSTEMD_EXEC_PID', '378728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/10051/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '379860'), ('COLCON_PREFIX_PATH', '/home/12_fri/bwi_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', '12_fri'), ('JOURNAL_STREAM', '8:1507008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/12_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', '12_fri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/12_fri/bwi_ros2/install/apriltag_ros/bin:/opt/ros/humble/bin:/home/12_fri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bender:@/tmp/.ICE-unix/378706,unix/bender:/tmp/.ICE-unix/378706'), ('INVOCATION_ID', '9ae60de4e8ea49d7a2052dc0e53850f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/10051'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/10051/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/10051/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/12_fri/bwi_ros2/install/velodyne:/home/12_fri/bwi_ros2/install/velodyne_pointcloud:/home/12_fri/bwi_ros2/install/velodyne_driver:/home/12_fri/bwi_ros2/install/velodyne_msgs:/home/12_fri/bwi_ros2/install/velodyne_laserscan:/home/12_fri/bwi_ros2/install/urg_node2:/home/12_fri/bwi_ros2/install/spatial_transforms:/home/12_fri/bwi_ros2/install/spatial_utils:/home/12_fri/bwi_ros2/install/segway_rmp_ros2:/home/12_fri/bwi_ros2/install/segway_msgs:/home/12_fri/bwi_ros2/install/segway_description:/home/12_fri/bwi_ros2/install/segbot_description:/home/12_fri/bwi_ros2/install/scan_filter:/home/12_fri/bwi_ros2/install/ros2_laser_scan_merger:/home/12_fri/bwi_ros2/install/pr2_description:/home/12_fri/bwi_ros2/install/nav_goals:/home/12_fri/bwi_ros2/install/nav2_bringup:/home/12_fri/bwi_ros2/install/libsegwayrmp:/home/12_fri/bwi_ros2/install/follower_robot:/home/12_fri/bwi_ros2/install/bwi_launch:/home/12_fri/bwi_ros2/install/azure_kinect_ros_driver:/home/12_fri/bwi_ros2/install/apriltag_ros:/home/12_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5739a51e-204f-4384-8019-257e588638cc'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/12_fri/bwi_ros2'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/10051/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/12_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/segway_msgs/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:/home/12_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/12_fri/bwi_ros2/install/velodyne:/home/12_fri/bwi_ros2/install/velodyne_pointcloud:/home/12_fri/bwi_ros2/install/velodyne_driver:/home/12_fri/bwi_ros2/install/velodyne_msgs:/home/12_fri/bwi_ros2/install/velodyne_laserscan:/home/12_fri/bwi_ros2/install/urg_node2:/home/12_fri/bwi_ros2/install/spatial_transforms:/home/12_fri/bwi_ros2/install/spatial_utils:/home/12_fri/bwi_ros2/install/segway_rmp_ros2:/home/12_fri/bwi_ros2/install/segway_msgs:/home/12_fri/bwi_ros2/install/segway_description:/home/12_fri/bwi_ros2/install/segbot_description:/home/12_fri/bwi_ros2/install/ros2_laser_scan_merger:/home/12_fri/bwi_ros2/install/pr2_description:/home/12_fri/bwi_ros2/install/nav_goals:/home/12_fri/bwi_ros2/install/nav2_bringup:/home/12_fri/bwi_ros2/install/libsegwayrmp:/home/12_fri/bwi_ros2/install/follower_robot:/home/12_fri/bwi_ros2/install/bwi_launch:/home/12_fri/bwi_ros2/install/azure_kinect_ros_driver:/home/12_fri/bwi_ros2/install/apriltag_ros:/home/12_fri/bwi_ros2/install/apriltag_msgs:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble')]), 'shell': False}
+[0.067142] (follower_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099770] (-) TimerEvent: {}
+[0.112700] (follower_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.119264] (follower_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178201] (follower_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.185027] (follower_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185243] (follower_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185640] (follower_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.188586] (follower_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199885] (-) TimerEvent: {}
+[0.266291] (follower_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.272979] (follower_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.273174] (follower_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.273505] (follower_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.277092] (follower_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299959] (-) TimerEvent: {}
+[0.400184] (-) TimerEvent: {}
+[0.444456] (follower_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500299] (-) TimerEvent: {}
+[0.557058] (follower_robot) StdoutLine: {'line': b'-- Found apriltag_msgs: 0.0.0 (/home/12_fri/bwi_ros2/install/apriltag_msgs/share/apriltag_msgs/cmake)\n'}
+[0.600518] (-) TimerEvent: {}
+[0.604877] (follower_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.612763] (follower_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.623073] (follower_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.639218] (follower_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.660537] (follower_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700549] (-) TimerEvent: {}
+[0.800831] (-) TimerEvent: {}
+[0.865258] (follower_robot) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.900936] (-) TimerEvent: {}
+[0.974636] (follower_robot) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.001040] (-) TimerEvent: {}
+[1.101274] (-) TimerEvent: {}
+[1.201673] (-) TimerEvent: {}
+[1.298589] (follower_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.301755] (-) TimerEvent: {}
+[1.369508] (follower_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.374090] (follower_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401847] (-) TimerEvent: {}
+[1.479027] (follower_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.501946] (-) TimerEvent: {}
+[1.507016] (follower_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.550231] (follower_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.562869] (follower_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.602061] (-) TimerEvent: {}
+[1.632032] (follower_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.632254] (follower_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.696888] (follower_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.697757] (follower_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702151] (-) TimerEvent: {}
+[1.802432] (-) TimerEvent: {}
+[1.825860] (follower_robot) StdoutLine: {'line': b'-- Found spatial_utils: 0.0.0 (/home/12_fri/bwi_ros2/install/spatial_utils/share/spatial_utils/cmake)\n'}
+[1.830409] (follower_robot) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.902514] (-) TimerEvent: {}
+[2.002792] (-) TimerEvent: {}
+[2.103056] (-) TimerEvent: {}
+[2.107633] (follower_robot) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.119119] (follower_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.203158] (-) TimerEvent: {}
+[2.205778] (follower_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.205982] (follower_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/include\n'}
+[2.206075] (follower_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.207683] (follower_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.211682] (follower_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.211924] (follower_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.212671] (follower_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.213999] (follower_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.228435] (follower_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.230549] (follower_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot\n'}
+[2.241880] (follower_robot) CommandEnded: {'returncode': 0}
+[2.242466] (follower_robot) JobProgress: {'identifier': 'follower_robot', 'progress': 'build'}
+[2.243322] (follower_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot', '--', '-j12', '-l12'], 'cwd': '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', '12_fri'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/12_fri/bwi_ros2/install/velodyne_pointcloud/lib:/home/12_fri/bwi_ros2/install/velodyne_driver/lib:/home/12_fri/bwi_ros2/install/velodyne_msgs/lib:/home/12_fri/bwi_ros2/install/velodyne_laserscan/lib:/home/12_fri/bwi_ros2/install/urg_node2/lib:/home/12_fri/bwi_ros2/install/spatial_utils/lib:/home/12_fri/bwi_ros2/install/segway_rmp_ros2/lib:/home/12_fri/bwi_ros2/install/segway_msgs/lib:/home/12_fri/bwi_ros2/install/libsegwayrmp/lib:/home/12_fri/bwi_ros2/install/apriltag_ros/lib:/home/12_fri/bwi_ros2/install/apriltag_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/12_fri'), ('OLDPWD', '/home/12_fri/bwi_ros2/src/fri_autonomous_template'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '334885'), ('SYSTEMD_EXEC_PID', '378728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/10051/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '379860'), ('COLCON_PREFIX_PATH', '/home/12_fri/bwi_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', '12_fri'), ('JOURNAL_STREAM', '8:1507008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/12_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', '12_fri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/12_fri/bwi_ros2/install/apriltag_ros/bin:/opt/ros/humble/bin:/home/12_fri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bender:@/tmp/.ICE-unix/378706,unix/bender:/tmp/.ICE-unix/378706'), ('INVOCATION_ID', '9ae60de4e8ea49d7a2052dc0e53850f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/10051'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/10051/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/10051/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/12_fri/bwi_ros2/install/velodyne:/home/12_fri/bwi_ros2/install/velodyne_pointcloud:/home/12_fri/bwi_ros2/install/velodyne_driver:/home/12_fri/bwi_ros2/install/velodyne_msgs:/home/12_fri/bwi_ros2/install/velodyne_laserscan:/home/12_fri/bwi_ros2/install/urg_node2:/home/12_fri/bwi_ros2/install/spatial_transforms:/home/12_fri/bwi_ros2/install/spatial_utils:/home/12_fri/bwi_ros2/install/segway_rmp_ros2:/home/12_fri/bwi_ros2/install/segway_msgs:/home/12_fri/bwi_ros2/install/segway_description:/home/12_fri/bwi_ros2/install/segbot_description:/home/12_fri/bwi_ros2/install/scan_filter:/home/12_fri/bwi_ros2/install/ros2_laser_scan_merger:/home/12_fri/bwi_ros2/install/pr2_description:/home/12_fri/bwi_ros2/install/nav_goals:/home/12_fri/bwi_ros2/install/nav2_bringup:/home/12_fri/bwi_ros2/install/libsegwayrmp:/home/12_fri/bwi_ros2/install/follower_robot:/home/12_fri/bwi_ros2/install/bwi_launch:/home/12_fri/bwi_ros2/install/azure_kinect_ros_driver:/home/12_fri/bwi_ros2/install/apriltag_ros:/home/12_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5739a51e-204f-4384-8019-257e588638cc'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/12_fri/bwi_ros2'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/10051/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/12_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/segway_msgs/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:/home/12_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/12_fri/bwi_ros2/install/velodyne:/home/12_fri/bwi_ros2/install/velodyne_pointcloud:/home/12_fri/bwi_ros2/install/velodyne_driver:/home/12_fri/bwi_ros2/install/velodyne_msgs:/home/12_fri/bwi_ros2/install/velodyne_laserscan:/home/12_fri/bwi_ros2/install/urg_node2:/home/12_fri/bwi_ros2/install/spatial_transforms:/home/12_fri/bwi_ros2/install/spatial_utils:/home/12_fri/bwi_ros2/install/segway_rmp_ros2:/home/12_fri/bwi_ros2/install/segway_msgs:/home/12_fri/bwi_ros2/install/segway_description:/home/12_fri/bwi_ros2/install/segbot_description:/home/12_fri/bwi_ros2/install/ros2_laser_scan_merger:/home/12_fri/bwi_ros2/install/pr2_description:/home/12_fri/bwi_ros2/install/nav_goals:/home/12_fri/bwi_ros2/install/nav2_bringup:/home/12_fri/bwi_ros2/install/libsegwayrmp:/home/12_fri/bwi_ros2/install/follower_robot:/home/12_fri/bwi_ros2/install/bwi_launch:/home/12_fri/bwi_ros2/install/azure_kinect_ros_driver:/home/12_fri/bwi_ros2/install/apriltag_ros:/home/12_fri/bwi_ros2/install/apriltag_msgs:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble')]), 'shell': False}
+[2.288616] (follower_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/follower_robot.dir/src/MoveToTarget.cpp.o\x1b[0m\n'}
+[2.288771] (follower_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/follower_robot.dir/src/follower_robot.cpp.o\x1b[0m\n'}
+[2.288831] (follower_robot) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/follower_robot.dir/src/FollowerRobotNode.cpp.o\x1b[0m\n'}
+[2.303234] (-) TimerEvent: {}
+[2.403508] (-) TimerEvent: {}
+[2.503733] (-) TimerEvent: {}
+[2.604091] (-) TimerEvent: {}
+[2.704385] (-) TimerEvent: {}
+[2.804650] (-) TimerEvent: {}
+[2.904979] (-) TimerEvent: {}
+[3.005361] (-) TimerEvent: {}
+[3.105702] (-) TimerEvent: {}
+[3.205990] (-) TimerEvent: {}
+[3.306298] (-) TimerEvent: {}
+[3.406637] (-) TimerEvent: {}
+[3.506943] (-) TimerEvent: {}
+[3.607365] (-) TimerEvent: {}
+[3.707753] (-) TimerEvent: {}
+[3.808064] (-) TimerEvent: {}
+[3.908377] (-) TimerEvent: {}
+[4.008686] (-) TimerEvent: {}
+[4.109077] (-) TimerEvent: {}
+[4.209422] (-) TimerEvent: {}
+[4.309804] (-) TimerEvent: {}
+[4.410139] (-) TimerEvent: {}
+[4.510472] (-) TimerEvent: {}
+[4.563789] (follower_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToTarget::result_callback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.564071] (follower_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:40:94:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.564180] (follower_robot) StderrLine: {'line': b'   40 |     \x1b[01;35m\x1b[Kconst rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult &result\x1b[m\x1b[K) {\n'}
+[4.564280] (follower_robot) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.610602] (-) TimerEvent: {}
+[4.710947] (-) TimerEvent: {}
+[4.811240] (-) TimerEvent: {}
+[4.911563] (-) TimerEvent: {}
+[5.011898] (-) TimerEvent: {}
+[5.112248] (-) TimerEvent: {}
+[5.212668] (-) TimerEvent: {}
+[5.312990] (-) TimerEvent: {}
+[5.413267] (-) TimerEvent: {}
+[5.513529] (-) TimerEvent: {}
+[5.613830] (-) TimerEvent: {}
+[5.714137] (-) TimerEvent: {}
+[5.814456] (-) TimerEvent: {}
+[5.915018] (-) TimerEvent: {}
+[6.015218] (-) TimerEvent: {}
+[6.115459] (-) TimerEvent: {}
+[6.215683] (-) TimerEvent: {}
+[6.315997] (-) TimerEvent: {}
+[6.416224] (-) TimerEvent: {}
+[6.516468] (-) TimerEvent: {}
+[6.616698] (-) TimerEvent: {}
+[6.716922] (-) TimerEvent: {}
+[6.817124] (-) TimerEvent: {}
+[6.917382] (-) TimerEvent: {}
+[7.017626] (-) TimerEvent: {}
+[7.117877] (-) TimerEvent: {}
+[7.218171] (-) TimerEvent: {}
+[7.318525] (-) TimerEvent: {}
+[7.418865] (-) TimerEvent: {}
+[7.519185] (-) TimerEvent: {}
+[7.619473] (-) TimerEvent: {}
+[7.719798] (-) TimerEvent: {}
+[7.820091] (-) TimerEvent: {}
+[7.920394] (-) TimerEvent: {}
+[8.020712] (-) TimerEvent: {}
+[8.121170] (-) TimerEvent: {}
+[8.221580] (-) TimerEvent: {}
+[8.321896] (-) TimerEvent: {}
+[8.422232] (-) TimerEvent: {}
+[8.522787] (-) TimerEvent: {}
+[8.623098] (-) TimerEvent: {}
+[8.723457] (-) TimerEvent: {}
+[8.823814] (-) TimerEvent: {}
+[8.924255] (-) TimerEvent: {}
+[9.024581] (-) TimerEvent: {}
+[9.124865] (-) TimerEvent: {}
+[9.225134] (-) TimerEvent: {}
+[9.325363] (-) TimerEvent: {}
+[9.425625] (-) TimerEvent: {}
+[9.525897] (-) TimerEvent: {}
+[9.626190] (-) TimerEvent: {}
+[9.726476] (-) TimerEvent: {}
+[9.826948] (-) TimerEvent: {}
+[9.927219] (-) TimerEvent: {}
+[10.027443] (-) TimerEvent: {}
+[10.127694] (-) TimerEvent: {}
+[10.227949] (-) TimerEvent: {}
+[10.328205] (-) TimerEvent: {}
+[10.428458] (-) TimerEvent: {}
+[10.528718] (-) TimerEvent: {}
+[10.628948] (-) TimerEvent: {}
+[10.729196] (-) TimerEvent: {}
+[10.829429] (-) TimerEvent: {}
+[10.929686] (-) TimerEvent: {}
+[11.029891] (-) TimerEvent: {}
+[11.130121] (-) TimerEvent: {}
+[11.230346] (-) TimerEvent: {}
+[11.330586] (-) TimerEvent: {}
+[11.430792] (-) TimerEvent: {}
+[11.531047] (-) TimerEvent: {}
+[11.631303] (-) TimerEvent: {}
+[11.731500] (-) TimerEvent: {}
+[11.831745] (-) TimerEvent: {}
+[11.932076] (-) TimerEvent: {}
+[12.032328] (-) TimerEvent: {}
+[12.132552] (-) TimerEvent: {}
+[12.232760] (-) TimerEvent: {}
+[12.332966] (-) TimerEvent: {}
+[12.433191] (-) TimerEvent: {}
+[12.533370] (-) TimerEvent: {}
+[12.633711] (-) TimerEvent: {}
+[12.733996] (-) TimerEvent: {}
+[12.834276] (-) TimerEvent: {}
+[12.934569] (-) TimerEvent: {}
+[13.034799] (-) TimerEvent: {}
+[13.046509] (follower_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable follower_robot\x1b[0m\n'}
+[13.134894] (-) TimerEvent: {}
+[13.235220] (-) TimerEvent: {}
+[13.335629] (-) TimerEvent: {}
+[13.435987] (-) TimerEvent: {}
+[13.536290] (-) TimerEvent: {}
+[13.636572] (-) TimerEvent: {}
+[13.676664] (follower_robot) StdoutLine: {'line': b'[100%] Built target follower_robot\n'}
+[13.685826] (follower_robot) CommandEnded: {'returncode': 0}
+[13.711492] (follower_robot) JobProgress: {'identifier': 'follower_robot', 'progress': 'install'}
+[13.719570] (follower_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot'], 'cwd': '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', '12_fri'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/12_fri/bwi_ros2/install/velodyne_pointcloud/lib:/home/12_fri/bwi_ros2/install/velodyne_driver/lib:/home/12_fri/bwi_ros2/install/velodyne_msgs/lib:/home/12_fri/bwi_ros2/install/velodyne_laserscan/lib:/home/12_fri/bwi_ros2/install/urg_node2/lib:/home/12_fri/bwi_ros2/install/spatial_utils/lib:/home/12_fri/bwi_ros2/install/segway_rmp_ros2/lib:/home/12_fri/bwi_ros2/install/segway_msgs/lib:/home/12_fri/bwi_ros2/install/libsegwayrmp/lib:/home/12_fri/bwi_ros2/install/apriltag_ros/lib:/home/12_fri/bwi_ros2/install/apriltag_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/12_fri'), ('OLDPWD', '/home/12_fri/bwi_ros2/src/fri_autonomous_template'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '334885'), ('SYSTEMD_EXEC_PID', '378728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/10051/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '379860'), ('COLCON_PREFIX_PATH', '/home/12_fri/bwi_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', '12_fri'), ('JOURNAL_STREAM', '8:1507008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/12_fri/bwi_ros2/install/libsegwayrmp/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', '12_fri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/12_fri/bwi_ros2/install/apriltag_ros/bin:/opt/ros/humble/bin:/home/12_fri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bender:@/tmp/.ICE-unix/378706,unix/bender:/tmp/.ICE-unix/378706'), ('INVOCATION_ID', '9ae60de4e8ea49d7a2052dc0e53850f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/10051'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/10051/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/10051/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/12_fri/bwi_ros2/install/velodyne:/home/12_fri/bwi_ros2/install/velodyne_pointcloud:/home/12_fri/bwi_ros2/install/velodyne_driver:/home/12_fri/bwi_ros2/install/velodyne_msgs:/home/12_fri/bwi_ros2/install/velodyne_laserscan:/home/12_fri/bwi_ros2/install/urg_node2:/home/12_fri/bwi_ros2/install/spatial_transforms:/home/12_fri/bwi_ros2/install/spatial_utils:/home/12_fri/bwi_ros2/install/segway_rmp_ros2:/home/12_fri/bwi_ros2/install/segway_msgs:/home/12_fri/bwi_ros2/install/segway_description:/home/12_fri/bwi_ros2/install/segbot_description:/home/12_fri/bwi_ros2/install/scan_filter:/home/12_fri/bwi_ros2/install/ros2_laser_scan_merger:/home/12_fri/bwi_ros2/install/pr2_description:/home/12_fri/bwi_ros2/install/nav_goals:/home/12_fri/bwi_ros2/install/nav2_bringup:/home/12_fri/bwi_ros2/install/libsegwayrmp:/home/12_fri/bwi_ros2/install/follower_robot:/home/12_fri/bwi_ros2/install/bwi_launch:/home/12_fri/bwi_ros2/install/azure_kinect_ros_driver:/home/12_fri/bwi_ros2/install/apriltag_ros:/home/12_fri/bwi_ros2/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5739a51e-204f-4384-8019-257e588638cc'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/12_fri/bwi_ros2'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/10051/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/12_fri/bwi_ros2/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/segway_rmp_ros2/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/segway_msgs/local/lib/python3.10/dist-packages:/home/12_fri/bwi_ros2/install/scan_filter/lib/python3.10/site-packages:/home/12_fri/bwi_ros2/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/12_fri/bwi_ros2/install/velodyne:/home/12_fri/bwi_ros2/install/velodyne_pointcloud:/home/12_fri/bwi_ros2/install/velodyne_driver:/home/12_fri/bwi_ros2/install/velodyne_msgs:/home/12_fri/bwi_ros2/install/velodyne_laserscan:/home/12_fri/bwi_ros2/install/urg_node2:/home/12_fri/bwi_ros2/install/spatial_transforms:/home/12_fri/bwi_ros2/install/spatial_utils:/home/12_fri/bwi_ros2/install/segway_rmp_ros2:/home/12_fri/bwi_ros2/install/segway_msgs:/home/12_fri/bwi_ros2/install/segway_description:/home/12_fri/bwi_ros2/install/segbot_description:/home/12_fri/bwi_ros2/install/ros2_laser_scan_merger:/home/12_fri/bwi_ros2/install/pr2_description:/home/12_fri/bwi_ros2/install/nav_goals:/home/12_fri/bwi_ros2/install/nav2_bringup:/home/12_fri/bwi_ros2/install/libsegwayrmp:/home/12_fri/bwi_ros2/install/follower_robot:/home/12_fri/bwi_ros2/install/bwi_launch:/home/12_fri/bwi_ros2/install/azure_kinect_ros_driver:/home/12_fri/bwi_ros2/install/apriltag_ros:/home/12_fri/bwi_ros2/install/apriltag_msgs:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble')]), 'shell': False}
+[13.726712] (follower_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.726868] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/lib/follower_robot/follower_robot\n'}
+[13.729515] (follower_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/lib/follower_robot/follower_robot" to ""\n'}
+[13.729653] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/package_run_dependencies/follower_robot\n'}
+[13.729740] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/parent_prefix_path/follower_robot\n'}
+[13.729877] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/ament_prefix_path.sh\n'}
+[13.729986] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/ament_prefix_path.dsv\n'}
+[13.730076] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/path.sh\n'}
+[13.730158] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/path.dsv\n'}
+[13.730249] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.bash\n'}
+[13.730360] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.sh\n'}
+[13.730471] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.zsh\n'}
+[13.730563] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.dsv\n'}
+[13.730663] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/package.dsv\n'}
+[13.730787] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/packages/follower_robot\n'}
+[13.730930] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/cmake/follower_robotConfig.cmake\n'}
+[13.730997] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/cmake/follower_robotConfig-version.cmake\n'}
+[13.731102] (follower_robot) StdoutLine: {'line': b'-- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/package.xml\n'}
+[13.732508] (follower_robot) CommandEnded: {'returncode': 0}
+[13.736739] (-) TimerEvent: {}
+[13.771398] (follower_robot) JobEnded: {'identifier': 'follower_robot', 'rc': 0}
+[13.771906] (-) EventReactorShutdown: {}

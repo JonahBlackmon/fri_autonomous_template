@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[0.075s] [100%] Built target follower_robot
+[0.085s] Invoked command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot -- -j12 -l12
+[0.118s] Invoking command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot
+[0.124s] -- Install configuration: ""
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/lib/follower_robot/follower_robot
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/package_run_dependencies/follower_robot
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/parent_prefix_path/follower_robot
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/path.sh
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/environment/path.dsv
+[0.124s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.bash
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.sh
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.zsh
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/local_setup.dsv
+[0.125s] -- Installing: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/package.dsv
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/ament_index/resource_index/packages/follower_robot
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/cmake/follower_robotConfig.cmake
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/cmake/follower_robotConfig-version.cmake
+[0.125s] -- Up-to-date: /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/install/follower_robot/share/follower_robot/package.xml
+[0.126s] Invoked command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot

@@ -59,5 +59,19 @@ void MoveToTarget::copyToGoalPoseAndSend(
     RCLCPP_INFO(node_->get_logger(), "Sending goal!");
     geometry_msgs::msg::PoseStamped goal_pose;
     nav2_msgs::action::NavigateToPose::Goal goal_msg = nav2_msgs::action::NavigateToPose::Goal();
+    goal_pose.pose.position.x = goal_pose_relative_to_base_link(0, 3);
+    goal_pose.pose.position.y = goal_pose_relative_to_base_link(1, 3);
+    goal_pose.pose.position.z = goal_pose_relative_to_base_link(2, 3);
+
+    Eigen::Matrix3d rotation_matrix = goal_pose_relative_to_base_link.block(0, 0, 3, 3);
+    Eigen::Quaterniond quaternion(rotation_matrix);
+    goal_pose.pose.orientation.x = quaternion.x();
+    goal_pose.pose.orientation.y = quaternion.y();
+    goal_pose.pose.orientation.z = quaternion.z();
+    goal_pose.pose.orientation.w = quaternion.w();
+
+    goal_pose.header.stamp = node_->get_clock()->now();
+    goal_pose.header.frame_id = "map";
+    goal_msg.pose = goal_pose;
     client_->async_send_goal(goal_msg, send_goal_options_);
 }

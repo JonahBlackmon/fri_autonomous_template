@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot -- -j12 -l12
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target follower_robot[0m
+[0.069s] [ 25%] [32mBuilding CXX object CMakeFiles/follower_robot.dir/src/MoveToTarget.cpp.o[0m
+[2.190s] [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:[m[K In member function ‘[01m[Kvoid MoveToTarget::result_callback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult&)[m[K’:
+[2.190s] [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:40:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.190s]    40 | [01;35m[Krclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult &result[m[K) {
+[2.190s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.190s] 
+[2.233s] [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:[m[K In member function ‘[01m[Kvoid MoveToTarget::copyToGoalPoseAndSend(Eigen::MatrixXd&)[m[K’:
+[2.233s] [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:76:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav2_msgs::action::NavigateToPose_Goal_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’})
+[2.233s]    76 |     goal_msg.pose = goal_pose.[01;31m[Kpose[m[K;
+[2.234s]       |                               [01;31m[K^~~~[m[K
+[2.234s] In file included from [01m[K/opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:20[m[K,
+[2.234s]                  from [01m[K/opt/ros/humble/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp:7[m[K,
+[2.234s]                  from [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/include/follower_robot/MoveToTarget.h:4[m[K,
+[2.234s]                  from [01m[K/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/src/MoveToTarget.cpp:1[m[K:
+[2.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::operator=(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >&)[m[K’
+[2.234s]    38 | struct [01;36m[KPoseStamped_[m[K
+[2.234s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[2.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >&[m[K’
+[2.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::operator=(geometry_msgs::msg::PoseStamped_<std::allocator<void> >&&)[m[K’
+[2.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >&&[m[K’
+[2.803s] gmake[2]: *** [CMakeFiles/follower_robot.dir/build.make:90: CMakeFiles/follower_robot.dir/src/MoveToTarget.cpp.o] Error 1
+[2.803s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/follower_robot.dir/all] Error 2
+[2.803s] gmake: *** [Makefile:146: all] Error 2
+[2.805s] Invoked command in '/home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/12_fri/bwi_ros2/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /home/12_fri/bwi_ros2/src/fri_autonomous_template/follower_robot/build/follower_robot -- -j12 -l12
